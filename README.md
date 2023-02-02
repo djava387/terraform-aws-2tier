@@ -1,1 +1,1 @@
-# terraform-aws-2tier
+# terraform-aws-one-tier
