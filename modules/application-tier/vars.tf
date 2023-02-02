@@ -3,6 +3,15 @@ variable "vpc_id" {
   
 }
 
+variable "key_name" {
+    description = "AWS key"
+  
+}
+variable "public_key" {
+    description = "AWS key"
+  
+}
+
 variable "name" {
     description = "Name to be used for the Tags"
   
