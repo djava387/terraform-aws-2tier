@@ -18,8 +18,6 @@ Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename="userdata.txt"
 
 #!/bin/bash
-echo export DB_PATH=${mongodb_ip} >> /etc/profile
-echo export NODE_ENV=prod >> /etc/profile
 systemctl start nodeapp
 systemctl status nodeapp
 --//--

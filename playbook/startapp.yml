@@ -1,0 +1,12 @@
+- hosts: node
+  become: yes
+  remote_user: ubuntu
+  become_user: root
+  become_method: sudo
+
+  tasks:
+     - name: Start nodeapp service
+      command: systemctl start nodeapp
+
+    - name: Stop nodeapp service
+      command: systemctl stop nodeapp
